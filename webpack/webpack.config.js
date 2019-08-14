@@ -21,7 +21,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: '索真基因',
+      title: 'title',
       template: 'src/index.ejs',
       filename: 'index.html',
       chunks: ['home']
